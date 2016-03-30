@@ -1,0 +1,23 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>QiitaSample</title>
+</head>
+<body>
+  <div>未読お知らせ数: <span id="unread-count"></span></div>
+  <webview id="mainWebview"
+    src="https://qiita.com"
+    autosize="on"
+    preload="lib/webview/qiita.js"></webview>
+  <style>
+  webview {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  </style>
+  <script src="lib/qiita.js"></script>
+</body>
+</html>
